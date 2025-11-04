@@ -1,23 +1,27 @@
 export default {
   top: [
     {
-      text: 'About',
-      url: '/about/'
-    },
-    {
-      text: 'Docs',
+      text: 'Get Started',
       url: '/get-started/'
     },
     {
-      text: 'Built with',
-      url: '/built-with/'
+      text: 'Contribute',
+      url: '/contribute/'
+    },
+    {
+      text: 'Repo',
+      url: 'https://github.com/CommonGuide/commonguide/'
+    }
+  ],
+  bottom: [
+    {
+      text: 'Docs',
+      url: '/docs/'
     },
     {
       text: 'Blog',
       url: '/blog/'
-    }
-  ],
-  bottom: [
+    },
     {
       text: 'Style guide',
       url: '/styleguide/'

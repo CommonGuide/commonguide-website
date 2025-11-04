@@ -2,9 +2,9 @@
   <div class="wrapper">
     <div class="cluster gutter-xs">
       <nav class="cluster text-step-0" aria-label="{{ meta.navigation.ariaBottom }}">
-        &copy; {% year %}
+        <span style="display:inline-block; transform: rotate(180deg);">&copy;</span> {% year %}
         <a href="/" {{ indicateActiveHome }}
-          ><span class="font-display">{{ meta.siteName }}</span> <small>{{ pkg.version }}</small>
+          ><span class="font-display">{{ meta.siteName }}</span> <small>{{ meta.version }}</small>
         </a>
 
         {% for item in navigation.bottom %}
@@ -43,13 +43,13 @@
     {% include 'partials/theme-switch.njk' %}
 
     <aside class="creator | cluster gutter-2xs text-step-min-1 mt-xl">
-      Made with <span class="visually-hidden">love</span> <span>{% svg "misc/heart" %}</span> and
+      <p><a href="{{ meta.author.website }}">{{ meta.author.name }}</a> was made with <span class="visually-hidden">love</span> <span>{% svg "misc/heart" %}</span> on Kaurna & Ngarrindjeri Land. <br> Built with
       <a class="no-indicator" href="https://www.11ty.dev/">
         <span class="visually-hidden">Eleventy</span>
         {% svg "misc/11ty" %}
       </a>
-      by
-      <a href="{{ meta.creator.website }}">{{ meta.creator.name }}</a>
+      template by
+      <a href="{{ meta.creator.website }}">{{ meta.creator.name }}</a></p>
     </aside>
   </div>
 </footer>
