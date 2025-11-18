@@ -14,7 +14,7 @@ export const author = {
   avatar: '/icon-512x512.png', // path to the author's avatar. In this case just using a favicon.
   email: 'hello@common.guide', // i.e. hola@lenesaile.com - email of the author
   website: 'https://common.guide', // i.e. https.://www.lenesaile.com - the personal site of the author
-  fediverse: '@commonguide@fosstodon.social' // used for highlighting journalism on the fediverse. Can be Mastodon, Flipboard, Threads, WordPress (with the ActivityPub plugin installed), PeerTube, Pixelfed, etc. https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
+  fediverse: '@commonguide@fosstodon.org' // used for highlighting journalism on the fediverse. Can be Mastodon, Flipboard, Threads, WordPress (with the ActivityPub plugin installed), PeerTube, Pixelfed, etc. https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
 };
 export const creator = {
   name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.

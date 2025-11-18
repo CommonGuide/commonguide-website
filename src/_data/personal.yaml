@@ -1,9 +1,8 @@
 email: hello@common.guide
 address: |-
-  Organization name
-  Your street
-  12345, city
-  Tel: +34 928231911
+  Common.Guide
+  Kaurna and Ngarrindjeri Land
+  So called australia.
 platforms:
   github: 'https://github.com/commonguide'
-  mastodon: 'https://fosstodon.social/@commonguide'
+  mastodon: 'https://fosstodon.org/@commonguide'
