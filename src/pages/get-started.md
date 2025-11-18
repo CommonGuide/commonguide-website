@@ -17,12 +17,13 @@ Contact us for implementation support options
 
 ### 1. Find. Pick out the closest curation for your use case
 Here are the curations managed by Common Guide:
-{% set itemList = collections.allPosts %}
-					{% asyncEach item in itemList.slice(0, 2) %}
-            {% set headingLevel = "h3" %}
-						{% include "partials/card-blog.njk" %}
-					{% endeach %}
-Here are where you can find community curations:
+
+
+ - [Main](https://github.com/CommonGuide/commonguide/)
+
+
+Community curations will be here eventually also
+
 {% set itemList = collections.allPosts %}
 					{% asyncEach item in itemList.slice(2, 4) %}
             {% set headingLevel = "h3" %}
@@ -59,8 +60,12 @@ Let your group run as normal and learn from
 
 #### 4.1 Sign up to the Loomio forum
 
+Still to be set up!
+
 #### 4.2 Publishing your curation
 Make your own Curation available for people to iterate on! Share your work, pull request things you think would benefit upstream!
+
+For now, just have your fork on your git platform of choice. Later on we'll have a way to display them!
 
 <!-- loop docs -->
 {% set headingLevel = "h2" %}
