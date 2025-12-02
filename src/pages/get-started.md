@@ -67,7 +67,9 @@ In order to point the project to your own web domain, you will need to follow th
 ### 4. Ferment. 
 Run the policy and iterate!
 
-Let your group run as normal and learn from
+Let your group run as normal and learn from what works well and what doesn't!
+
+If you think that your improvement would benefit others, please make a pull request to the curation you forked from!
 
 #### 4.1 Sign up to the Loomio forum
 
